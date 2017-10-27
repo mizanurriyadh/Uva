@@ -24,3 +24,12 @@ int main()
 
     return 0;
 }
+
+Half Perimeter of Triangle, s = (a+b+c)/2
+Area of Triangle = sqrt(s*s-a*s-b*s-c)
+Radius of InnerCircle = Area of Triangle/s or sqrt((s-a*s-b*s-c)/s)
+Radius of Circumcircle = (a*b*c)/4*Area of Triangle or (a*b*c)/sqrt((a+b+c)*(b+c-a)*(a+c-b)(a+b-c))
+Input : 500 600 700
+Output: 253910.9280 63193.5805 83775.8041
+
+**** Using PI = 3.14159
