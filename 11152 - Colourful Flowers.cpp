@@ -25,6 +25,7 @@ int main()
     return 0;
 }
 
+                    **********************
 Half Perimeter of Triangle, s = (a+b+c)/2
 Area of Triangle = sqrt(s*s-a*s-b*s-c)
 Radius of InnerCircle = Area of Triangle/s or sqrt((s-a*s-b*s-c)/s)
